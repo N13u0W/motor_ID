@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import Sidebar from './Components/Sidebar'
+import Header from './Components/Header'
+import Home from './Components/Home'
 
 const App = () => {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Sidebar />
+      <Header />
+      <Home />
     </>
   )
-
 }
 
 export default App
